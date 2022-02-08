@@ -1,0 +1,19 @@
+
+
+.login-btn {
+  color: white;
+  border: 1px ;
+  border-radius: 10px;
+  margin-left:25%;
+  padding: 7px 14px;
+  background-color:rgb(21, 136, 136);
+}
+
+.signUp-btn {
+  color: white;
+  border: 1px ;
+  margin-left:150px;
+  border-radius: 10px;
+  padding: 7px 14px;
+  background-color:rgb(21, 136, 136);
+}

@@ -1,0 +1,15 @@
+signUpCSS.input[type=text] {
+    width: 100%;
+    padding: 6px 12px;
+    margin: 15px 0;
+    box-sizing: border-box;
+  }
+  signUpCSS.input[type=text]:not(:placeholder-shown) {
+    border-color: black;
+
+  }
+  signUpCSS.input[type=text]:focus {
+    outline: none !important;
+    border:1px solid green;
+    border-width: 4px;
+  }

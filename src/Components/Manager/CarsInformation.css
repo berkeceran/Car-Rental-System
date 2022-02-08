@@ -1,0 +1,7 @@
+.gonext li {
+    list-style: none;
+  }
+  .gonext li:after {
+    content: "\A";
+    white-space: pre;
+  }

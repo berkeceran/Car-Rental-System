@@ -1,0 +1,35 @@
+.CreateEmployeePage {
+  display: flex;
+  margin-top: 5%;
+}
+.EmployeeImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.3;
+  margin-left: 15%;
+}
+.EmployeeImage > img {
+  width: 50%;
+  height: auto;
+}
+.EmployeeInformationForm {
+  display: flex;
+  margin-top: 50px;
+  flex: 0.7;
+}
+.EmployeeInformationColumn {
+  display: flex;
+  flex-direction: column;
+  margin-right: 250px;
+}
+.EmployeeInformationColumn > input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.AddButton {
+  margin-top: 50px;
+  display: flex;
+  justify-content: right;
+}

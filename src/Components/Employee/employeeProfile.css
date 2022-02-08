@@ -1,0 +1,35 @@
+.customer-profile {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.profile-image {
+  flex: 0.25;
+}
+.profile-image > img {
+  width: 75%;
+  height: auto;
+}
+.profile-information {
+  flex: 0.25;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+.rental-information {
+  flex: 0.5;
+  margin-top: 100px;
+  overflow-y: scroll;
+}
+.carInformation {
+  display: flex;
+  margin-top: 10px;
+}
+.image {
+  flex: 0.5;
+}
+.information {
+  flex: 0.5;
+  font-weight: bold;
+  color: rgb(10, 121, 112);
+  font-style: italic;
+}

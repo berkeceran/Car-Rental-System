@@ -1,0 +1,73 @@
+.ManagerMainPage {
+  display: flex;
+  flex-direction: column;
+}
+.ManagerMainPageColumns {
+  display: flex;
+}
+.TopRow {
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+.CarsColumn {
+  display: inline-block;
+  flex: 0.33;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.TransportationColumn {
+  display: flex;
+  flex: 0.33;
+  flex-direction: column;
+  margin-left: 25px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.Employees {
+  height: 100vh;
+  overflow-y: scroll;
+  flex: 0.33;
+}
+
+.EmployeeInformation {
+  display: flex;
+  flex: 0.5;
+  margin-top: 50px;
+}
+.EmployeeInformation > img {
+  width: 100px;
+  height: 100px;
+}
+.nameSurname {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.CarsInformation {
+  display: flex;
+  flex: 0.5;
+  margin: auto;
+  width: 70%;
+  padding: 5%;
+}
+.CarImage {
+  display: flex;
+  align-items: center;
+}
+.CarImage > img {
+  width: 75%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.CarDetails {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 35px;
+  font-size: 12px;
+}

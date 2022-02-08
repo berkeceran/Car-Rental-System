@@ -1,0 +1,85 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .search-area {
+    margin-top: 30px;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .text-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(23, 159, 201);
+  }
+  .mail-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(23, 159, 201);
+  }
+  .person-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(23, 159, 201);
+  }
+  .logout-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(23, 159, 201);
+  }
+  .advertisements {
+    margin-top: 50px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .advertisements-1 {
+    flex: 0.25;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .advertisements-2 {
+    flex: 0.25;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .advertisements-3 {
+    flex: 0.25;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .advertisements-4 {
+    flex: 0.25;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .available {
+    display: flex;
+    margin-top: 50px;
+  }
+  .car1 {
+    flex: 0.5;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .car2 {
+    flex: 0.5;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
